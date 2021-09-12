@@ -45,7 +45,7 @@ function draw() {
   setInterval(function hideText() {
     if (fade > 255) fadeAmount = -10;
     fade += fadeAmount;
-  }, 7000);
+  }, 10000);
   streams.forEach(function (stream) {
     stream.render();
   });
@@ -56,12 +56,9 @@ function writeText() {
   textAlign(CENTER, CENTER);
   textSize(30);
   //fade = 120
+  text("میٹرکس میں خوش آمدید۔", width / 2, height / 2+100);
   text("یاد رکھیں ، میں جو کچھ پیش کر رہا ہوں وہ سچ ہے۔ سچ سے زیادہ کچھ نہیں۔", width / 2, height / 2);
-  //if (fade<0) fadeAmount=1;
-  //if (fade>255) fadeAmount=-100;
-  /*  let div = createDiv('آپ کو میٹرکس میں خوش آمدید۔"');
-div.style('font-size', '20px');
-div.position(width/2, height/2); */
+
 }
 
 function typeWriter(sentence, n, x, y, speed) {
