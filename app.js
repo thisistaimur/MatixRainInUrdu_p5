@@ -4,7 +4,7 @@ const express = require('express');
 const bodyparser = require('body-parser');
 
 const app = express();
-const port = process.env.$PORT;
+const port = process.env.PORT;
 
 // serve files from the public directory
 app.use(express.static('public'));
