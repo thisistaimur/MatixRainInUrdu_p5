@@ -45,7 +45,7 @@ function draw() {
   setInterval(function hideText() {
     if (fade > 255) fadeAmount = -10;
     fade += fadeAmount;
-  }, 3000);
+  }, 7000);
   streams.forEach(function (stream) {
     stream.render();
   });
