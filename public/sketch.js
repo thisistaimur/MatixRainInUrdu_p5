@@ -56,8 +56,8 @@ function writeText() {
   textAlign(CENTER, CENTER);
   textSize(30);
   //fade = 120
-  text("میٹرکس میں خوش آمدید۔", width / 2, height / 2+100);
-  text("یاد رکھیں ، میں جو کچھ پیش کر رہا ہوں وہ سچ ہے۔ سچ سے زیادہ کچھ نہیں۔", width / 2, height / 2);
+  text("میٹرکس میں خوش آمدید۔", width / 2, height / 2);
+  text("یاد رکھیں ، میں جو کچھ پیش کر رہا ہوں وہ سچ ہے۔ سچ سے زیادہ کچھ نہیں۔", width / 2, height / 2+100);
 
 }
 
