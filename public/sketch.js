@@ -90,10 +90,10 @@ function Symbol(x, y, speed, first, opacity) {
     var charType = round(random(0, 5));
     if (frameCount % this.switchInterval == 0) {
       if (charType > 1) {
-        // set it to Katakana
+        // set it to Urdu
         this.value = String.fromCharCode(random(urdu));
       } else {
-        // set it to numeric
+        // default to UniCode range if character not present in Urdu array
         this.value = String.fromCharCode(0x0627 + floor(random(0, 37)));
       }
     }
